@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="positioner">
+        <div class="main">
+            <form>
+                <div class="line1">
+                    <h1>Inputs</h1>
+                    <label for="simpleinput"></label>
+                    <div>
+                        <input type="text" name="simpleinput" id="simpleinput" placeholder="Enter some text">
+                        <input type="email" name="email" id="email" placeholder="Enter e-mail">
+                        <input type="url" name="url" id="url" placeholder="Enter url" value="invalid text">
+                    </div>
+                </div>
+
+                <div class="line2">
+                    <h1>Check Boxes</h1>
+                    <input type="checkbox" id="toggle-button" class="toggle-button">
+                    <label for="toggle-button">Subscribe</label>
+
+                    <input type="checkbox" id="toggle-button2" class="toggle-button2" checked>
+                    <label for="toggle-button2">Subscribe</label>
+
+                </div>
+
+                <div class="line3">
+                    <h1>Radio Buttons</h1>
+                    <label for="gender">Gender:
+                    <input type="radio" id="gender" name="gender" value="Male" class="gender">
+                    Male</label>
+
+                    <input type="radio" id="gender2" name="gender" value="Female" class="gender2">
+                    <label for="gender2">Female</label>
+                </div>
+
+                <div class="line4">
+                    <h1>Buttons</h1>
+                    <button type="button" class="active-button">Active</button>
+                    <button type="button" class="danger-button">Danger</button>
+                    <button type="button" class="disabled-button" disabled>Disabled</button>
+                    
+                    <button type="button" class="round-button"><i class="fa fa-plus"></i></button>
+
+                    <button type="button" class="round-button minus"><i class="fa fa-minus"></i></button>
+                    
+                </div>
+
+                <div class="line5">
+                    <h1>Text Area</h1>
+                    <textarea class="text-area" placeholder="Enter some text..."></textarea>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
